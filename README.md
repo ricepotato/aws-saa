@@ -1,6 +1,11 @@
 # aws-saa
 
-aws saa 틀린문제 정리
+## 빈약한 부분
+
+- ASG (Auto Scaling Group)
+- Elasticache (memcached, redis 특징등)
+
+## aws saa 틀린문제 정리
 
 ### EC2 예약 인스턴스를 예약할 수 있는 기간은 얼마인가요?
 
