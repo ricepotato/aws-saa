@@ -4,6 +4,7 @@
 
 - ASG (Auto Scaling Group)
 - Elasticache (memcached, redis 특징등)
+- EC2 instance fleet
 
 ## aws saa 틀린문제 정리
 
