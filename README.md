@@ -460,5 +460,11 @@ Amazon Comprehend는 머신 러닝을 사용해 텍스트 내의 의미와 인�
 
 - EventBridge 아카이브 및 다시 재생(Replay) 기능을 사용한다
 
+### 다음 중 특정 AWS 리전에서 API 호출을 허용할 때만 사용할 수 있는 IAM 상태 키는 무엇입니까?
 
+- aws: RequestedRegion
+
+### EventBridge 권한 설정할 때 Lambda 함수를 대상으로 설정하려면 …………………..를 사용해야 하지만, Kinesis Data Streams을 대상으로 설정하려면 …………………..를 사용해야 합니다.
+
+- 리소스 기반 정책, 자격 증명 기반 정책
 
