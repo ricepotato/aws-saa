@@ -11,7 +11,10 @@
 - S3 SSE
 - S3 객체 잠금 - 거버넌스, 규정 준수 모드
 - S3 법적 보존
-- 
+
+## links
+
+https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c03/view/
 
 ## aws saa 틀린문제 정리
 
