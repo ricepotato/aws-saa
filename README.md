@@ -15,6 +15,7 @@
 ## links
 
 https://www.examtopics.com/exams/amazon/aws-certified-solutions-architect-associate-saa-c03/view/
+https://docs.aws.amazon.com/whitepapers/latest/disaster-recovery-workloads-on-aws/disaster-recovery-workloads-on-aws.html
 
 ## aws saa 틀린문제 정리
 
@@ -595,6 +596,42 @@ AWS VPN CloudHub는 AWS VPN을 통한 다수 사이트 간의 안전한 통신�
 
 - Site-to-Site VPN 연결을 백업으로 구성한다
 
+### 재해 복구 계획의 일부로, AWS에서 중요한 인프라만을 가동해 실행하려 합니다. 복구 시간 목표(RTO)는 길어져도 상관이 없습니다. 이런 경우, 다음 중 어떤 DR 전략을 추천할 수 있을까요?
 
+- 파일럿 라이트
+
+### 스케일 다운된 버전의 시스템을 가동해 실행하고, 재해가 발생하면 빠르게 스케일 업을 하는 재해 복구 계획을 수립하려 합니다. 이 경우, 어떤 DR 전략을 선택해야 할까요?
+
+- Worm Standby
+
+### AWS DataSync가 지원하지 않는 로케이션을 고르세요.
+
+- Amazon EBS
+
+### AWS 내에서 EC2 인스턴스, EBS 볼륨, Dynamo DB 테이블 등의 여러 리소스를 실행하고 있습니다. 한 곳에서 이러한 AWS 서비스들의 백업을 관리할 수 있는 간편한 방법이 필요한 상황입니다. 이 처리과정을 간단히 하기 위해서는 다음 중 어떤 AWS를 사용해야 할까요?
+
+- AWS Backup
+
+```
+AWS 백업을 사용하면 AWS 서비스 전반에 걸친 데이터 보호를 중앙 집중화하고 자동화할 수 있습니다. 이는 데이터 보호를 위한 규정 준수, 혹은 기업의 정책을 지원하는 데에 도움이 됩니다.
+```
+
+### 회사에서 자사의 기존 웹 사이트, 애플리케이션, 서버, 가상 머신 및 데이터를 AWS로 이전하는 계획을 세우고 있습니다. 최소 다운타임과 최소 비용으로 리프트 앤 시프트(Lift and Shift) 마이그레이션을 진행하려고 합니다. 이런 경우 도움이 될 만한 AWS 서비스는 무엇입니까?
+
+- AWS Application Migration
+
+### 회사는 MySQL용 RDS를 메인 데이터베이스로 사용하고 있는데 최근 데이터베이스 관리 문제, 성능 문제, 확장성 문제가 나타나고 있습니다. 의논한 결과, 더 높은 성능과 낮은 복잡도, 관리 작업 감소라는 이점을 얻기 위해 MySQL용 Aurora를 사용하기로 결정했습니다. MySQL용 RDS에서 MySQL용 Aurora로 마이그레이션하는 데 가장 적합하고 경제적 방식은 무엇입니까?
+
+
+- MySQL 용 스냅샷을 생성하고 MySQL 용 Aurora 에서 복원한다
+
+### RDS, DynamoDB, Aurora, EFS 파일 시스템, EBS 볼륨과 같은 다양한 AWS 서비스 간의 백업을 자동화하려면 어떤 AWS 서비스를 사용해야 합니까?
+
+- AWS Backup
+
+
+### S3 버킷으로 업로드되는 객체를 처리하는 서버리스 애플리케이션으로 작업하고 있습니다. S3 버킷에 S3 이벤트를 구성해 객체가 업로드될 때마다 Lambda 함수가 호출되도록 만들었습니다. 프로세싱되지 않는 이벤트는 추후 처리를 위해 데드 레터 대기열(DLQ)로 전송시키려 합니다. 이런 경우, 다음 중 어떤 AWS 서비스를 선택해야 할까요?
+
+- AWS Lambda 
 
 
