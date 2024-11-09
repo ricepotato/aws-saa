@@ -635,3 +635,12 @@ AWS 백업을 사용하면 AWS 서비스 전반에 걸친 데이터 보호를 �
 - AWS Lambda 
 
 
+### Well Architected Frameworks 6 Pillars
+
+1. Operational Excellence
+2. Security
+3. Reliability
+4. Performance Efficiency
+5. Cost Optimization
+6. Sustainability
+
